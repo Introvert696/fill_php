@@ -1,10 +1,10 @@
 <?php
 class mainController{
     function indexAction(){
-        echo "Main index action";
+        require_once 'Views/mainpagesView.php';
     }
     function aboutAction(){
-        echo "about main";
+        require_once 'Views/aboutmeView.php';
     }
 }
 

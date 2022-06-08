@@ -20,11 +20,14 @@ require_once 'layout/header.php';
                             <p class="card-text"><?php echo $value['desk'] ?></p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <a href="/items/get/<?php echo $value['id'] ?>" class="m-1">
+                                    <a href="/items/get/<?php echo $value['id'] ?>" class="m-1" target="about/blank">
                                         <button type="button" class="btn btn-sm btn-outline-secondary">Посмотреть</button>
                                     </a>
                                     <a href="/panel/edit/<?php echo $value['id'] ?>" class="m-1">
                                         <button type="button" class="btn btn-sm btn-outline-secondary ">Изменить</button>
+                                    </a>
+                                    <a href="/panel/delete/<?php echo $value['id'] ?>" class="m-1">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary ">Удалить</button>
                                     </a>
 
 

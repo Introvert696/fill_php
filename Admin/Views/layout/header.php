@@ -16,6 +16,8 @@
         <li class="nav-item"><a href="/panel" class="nav-link " aria-current="page">Панель</a></li>
         <li class="nav-item"><a href="/panel/items" class="nav-link">Статьи</a></li>
         <li class="nav-item"><a href="/panel/create" class="nav-link">Создать</a></li>
+        <li class="nav-item"><a href="/panel/exit" class="nav-link">Выход с админки</a></li>
+        
       </ul>
     </header>
   </div>

@@ -1,5 +1,5 @@
 <?php 
-    $setting = require_once 'config/dbsetting.php';
+    $setting = require 'config/dbsetting.php';
     //print_r($setting);
     
     try {
